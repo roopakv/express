@@ -7,5 +7,5 @@ workflows:
   codeql:
     jobs:
       - swissknife/codeql-analysis:
-          languages: go
+          languages: javascript
           name: CodeQL Analysis
